@@ -3,6 +3,7 @@ function binarySeach (nums, target) {
     let end = nums.length -1;
 
     while (start < end) {
+        ///ensure that 'curr' index is always rounded down
         curr = Math.floor((end-start)/2) + start;
         if (nums[curr] === target) {
             return curr;
