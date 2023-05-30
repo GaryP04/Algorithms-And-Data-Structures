@@ -24,4 +24,5 @@ function binarySeach (nums, target) {
     }
     return -1;
 }
+///calls the 'binarySearch' function with the provided array and target.
 console.log(binarySeach([-15, -9, -4, 1, 5, 8, 15, 19, 23, 39], 0));
